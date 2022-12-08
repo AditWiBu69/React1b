@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language = "JavaScript">
+        var tanggal=new Date();
+        var hari=tanggal.getDay();
+        var tgl=tanggal.getDate();
+        var bln=tanggal.getMonth();
+        var thn=tanggal.getYear();
+        var dtk=tanggal.getSeconds();
+        var mnt=tanggal.getMinutes();
+        var jam=tanggal.getHours();
+
+        document.write("<pre>");
+            document.write("hari ini Hari ke : "+hari+"<br>");
+            document.write("hari ini Tanggal ke : "+tgl+"<br>");
+            document.write("hari ini Bulan ke : "+bln+"<br>");
+            document.write("hari ini Tahun ke : "+thn+"<br>");
+            document.write("hari ini Jam ke : "+jam+":"+mnt+":"+dtk+"");
+        document.write("<pre/>");
+    </script>
+</body>
+</html>

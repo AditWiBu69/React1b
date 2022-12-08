@@ -1,0 +1,28 @@
+.parallax {
+
+    background-image: url("p3.jpg");
+  
+    min-height: 300px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .p{
+    text-align: center;
+  }
+  img{
+    border-radius: 50%;
+  }
+  .profil{
+    height:1000px;
+    font-size:36px
+  }
+  .bg{
+    background-image: linear-gradient(#51557E,#1B2430 );
+  }
+  .h1{
+    background-color: #51557E;
+    color: aliceblue;
+  }

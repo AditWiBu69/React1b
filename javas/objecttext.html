@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+        function EventTekan() {
+             var ketstr = document.fForm.ket.value;
+             document.fForm.ketstr.value = ketstr;
+        }
+    </script>
+
+    <!--memasukan Form-->
+    <form name="fForm">
+        masukan apapun yang anda mau <br>
+        masukan Disini <br>
+        <textarea name="ket" cols="30" rows="10"></textarea>
+        <br>
+        <input type="button" value="Enter" onclick="EventTekan()" />
+        <input type="reset" value="Reset"><br>
+        Output : <br>
+        <textarea name="ketstr" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
